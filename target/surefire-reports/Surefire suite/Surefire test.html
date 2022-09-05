@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Surefire test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>16/3/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Aug 31 21:52:15 EET 2022</td>
+<td>Started on:</td><td>Mon Sep 05 21:06:21 EET 2022</td>
 </tr>
-<tr><td>Total time:</td><td>24 seconds (24461 ms)</td>
+<tr><td>Total time:</td><td>342 seconds (342555 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,64 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='org.example.testRunner.Runners.runScenario()'><b>runScenario</b><br>Test class: org.example.testRunner.Runners<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user can click on Nokia Lumia 1020 slider to go to the product page", "F06_homeSliders | user can click on home sliders to go to"</td>
+<td><div><pre>java.lang.AssertionError: expected [https://demo.nopcommerce.com/nokia-lumia-1020] but found [https://demo.nopcommerce.com/]
+	at org.example.stepDefs.D06_homeSlidersStepDef.pageOpens(D06_homeSlidersStepDef.java:40)
+	at ✽.&quot;Nokia Lumia 1020&quot; page opens(file:///Users/ashrafhussein/Projects/Java%20project/demonopcommerce/demonopcommerce/src/main/resources/features/F06_homeSliders.feature:6)
+... Removed 6 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace530913105", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace530913105'><pre>java.lang.AssertionError: expected [https://demo.nopcommerce.com/nokia-lumia-1020] but found [https://demo.nopcommerce.com/]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at org.example.stepDefs.D06_homeSlidersStepDef.pageOpens(D06_homeSlidersStepDef.java:40)
+	at ✽.&quot;Nokia Lumia 1020&quot; page opens(file:///Users/ashrafhussein/Projects/Java%20project/demonopcommerce/demonopcommerce/src/main/resources/features/F06_homeSliders.feature:6)
+</pre></div></td>
+<td>38</td>
+<td>org.example.testRunner.Runners@255b53dc</td></tr>
+<tr>
+<td title='org.example.testRunner.Runners.runScenario()'><b>runScenario</b><br>Test class: org.example.testRunner.Runners<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user opens rss link", "F07_followUs | users could open followUs links"</td>
+<td><div><pre>java.lang.AssertionError: No new tab opened
+	at org.example.stepDefs.D07_followUsStepDef.isOpenedInNewTab(D07_followUsStepDef.java:40)
+	at ✽.&quot;https://demo.nopcommerce.com/new-online-store-is-open&quot; is opened in new tab(file:///Users/ashrafhussein/Projects/Java%20project/demonopcommerce/demonopcommerce/src/main/resources/features/F07_followUs.feature:14)
+... Removed 1 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace604589777", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace604589777'><pre>java.lang.AssertionError: No new tab opened
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.example.stepDefs.D07_followUsStepDef.isOpenedInNewTab(D07_followUsStepDef.java:40)
+	at ✽.&quot;https://demo.nopcommerce.com/new-online-store-is-open&quot; is opened in new tab(file:///Users/ashrafhussein/Projects/Java%20project/demonopcommerce/demonopcommerce/src/main/resources/features/F07_followUs.feature:14)
+</pre></div></td>
+<td>12</td>
+<td>org.example.testRunner.Runners@255b53dc</td></tr>
+<tr>
+<td title='org.example.testRunner.Runners.runScenario()'><b>runScenario</b><br>Test class: org.example.testRunner.Runners<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user can click on Nokia Lumia 1020 slider to go to the product page", "F06_homeSliders | user can click on home sliders to go to"</td>
+<td><div><pre>java.lang.AssertionError: expected [https://demo.nopcommerce.com/iphone-6] but found [https://demo.nopcommerce.com/]
+	at org.example.stepDefs.D06_homeSlidersStepDef.pageOpens(D06_homeSlidersStepDef.java:48)
+	at ✽.&quot;iPhone&quot; page opens(file:///Users/ashrafhussein/Projects/Java%20project/demonopcommerce/demonopcommerce/src/main/resources/features/F06_homeSliders.feature:10)
+... Removed 6 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1757412102", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1757412102'><pre>java.lang.AssertionError: expected [https://demo.nopcommerce.com/iphone-6] but found [https://demo.nopcommerce.com/]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at org.example.stepDefs.D06_homeSlidersStepDef.pageOpens(D06_homeSlidersStepDef.java:48)
+	at ✽.&quot;iPhone&quot; page opens(file:///Users/ashrafhussein/Projects/Java%20project/demonopcommerce/demonopcommerce/src/main/resources/features/F06_homeSliders.feature:10)
+</pre></div></td>
+<td>40</td>
+<td>org.example.testRunner.Runners@255b53dc</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -76,10 +134,85 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='org.example.testRunner.Runners.runScenario()'><b>runScenario</b><br>Test class: org.example.testRunner.Runners<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user could login with valid email and password", "F02_Login | users could use login functionality to use their accounts"</td>
+<td></td>
+<td>10</td>
+<td>org.example.testRunner.Runners@255b53dc</td></tr>
+<tr>
+<td title='org.example.testRunner.Runners.runScenario()'><b>runScenario</b><br>Test class: org.example.testRunner.Runners<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user could search for product using sku", "F04_Search | user can search for products using the search bar"</td>
+<td></td>
+<td>17</td>
+<td>org.example.testRunner.Runners@255b53dc</td></tr>
+<tr>
+<td title='org.example.testRunner.Runners.runScenario()'><b>runScenario</b><br>Test class: org.example.testRunner.Runners<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user could search using product name", "F04_Search | user can search for products using the search bar"</td>
+<td></td>
+<td>8</td>
+<td>org.example.testRunner.Runners@255b53dc</td></tr>
+<tr>
+<td title='org.example.testRunner.Runners.runScenario()'><b>runScenario</b><br>Test class: org.example.testRunner.Runners<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user could search using product name", "F04_Search | user can search for products using the search bar"</td>
+<td></td>
+<td>11</td>
+<td>org.example.testRunner.Runners@255b53dc</td></tr>
+<tr>
+<td title='org.example.testRunner.Runners.runScenario()'><b>runScenario</b><br>Test class: org.example.testRunner.Runners<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user could search using product name", "F04_Search | user can search for products using the search bar"</td>
+<td></td>
+<td>9</td>
+<td>org.example.testRunner.Runners@255b53dc</td></tr>
+<tr>
 <td title='org.example.testRunner.Runners.runScenario()'><b>runScenario</b><br>Test class: org.example.testRunner.Runners<br>Test method: Runs Cucumber Scenarios<br>Parameters: "guest user could register with valid data successfully", "F01_Register | users could register with new accounts"</td>
 <td></td>
-<td>23</td>
-<td>org.example.testRunner.Runners@351d0846</td></tr>
+<td>13</td>
+<td>org.example.testRunner.Runners@255b53dc</td></tr>
+<tr>
+<td title='org.example.testRunner.Runners.runScenario()'><b>runScenario</b><br>Test class: org.example.testRunner.Runners<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user opens youtube link", "F07_followUs | users could open followUs links"</td>
+<td></td>
+<td>35</td>
+<td>org.example.testRunner.Runners@255b53dc</td></tr>
+<tr>
+<td title='org.example.testRunner.Runners.runScenario()'><b>runScenario</b><br>Test class: org.example.testRunner.Runners<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user opens facebook link", "F07_followUs | users could open followUs links"</td>
+<td></td>
+<td>31</td>
+<td>org.example.testRunner.Runners@255b53dc</td></tr>
+<tr>
+<td title='org.example.testRunner.Runners.runScenario()'><b>runScenario</b><br>Test class: org.example.testRunner.Runners<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user can add HTC One M8 Android L 5.0 Lollipop to the wishlist page", "F08_Wishlist | user can add products to his wishlist"</td>
+<td></td>
+<td>25</td>
+<td>org.example.testRunner.Runners@255b53dc</td></tr>
+<tr>
+<td title='org.example.testRunner.Runners.runScenario()'><b>runScenario</b><br>Test class: org.example.testRunner.Runners<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user could login with invalid email and password", "F02_Login | users could use login functionality to use their accounts"</td>
+<td></td>
+<td>8</td>
+<td>org.example.testRunner.Runners@255b53dc</td></tr>
+<tr>
+<td title='org.example.testRunner.Runners.runScenario()'><b>runScenario</b><br>Test class: org.example.testRunner.Runners<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user can hover on Electronics menu and go to Cell phones sub category", "F05_hoverCategories | user can hover on the main categories and click on sub categories"</td>
+<td></td>
+<td>18</td>
+<td>org.example.testRunner.Runners@255b53dc</td></tr>
+<tr>
+<td title='org.example.testRunner.Runners.runScenario()'><b>runScenario</b><br>Test class: org.example.testRunner.Runners<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user could change products currency to Euro", "F03_currencies | users could change the website currency to Euro"</td>
+<td></td>
+<td>7</td>
+<td>org.example.testRunner.Runners@255b53dc</td></tr>
+<tr>
+<td title='org.example.testRunner.Runners.runScenario()'><b>runScenario</b><br>Test class: org.example.testRunner.Runners<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user can add HTC One M8 Android L 5.0 Lollipop to the wishlist", "F08_Wishlist | user can add products to his wishlist"</td>
+<td></td>
+<td>7</td>
+<td>org.example.testRunner.Runners@255b53dc</td></tr>
+<tr>
+<td title='org.example.testRunner.Runners.runScenario()'><b>runScenario</b><br>Test class: org.example.testRunner.Runners<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user could search for product using sku", "F04_Search | user can search for products using the search bar"</td>
+<td></td>
+<td>10</td>
+<td>org.example.testRunner.Runners@255b53dc</td></tr>
+<tr>
+<td title='org.example.testRunner.Runners.runScenario()'><b>runScenario</b><br>Test class: org.example.testRunner.Runners<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user could search for product using sku", "F04_Search | user can search for products using the search bar"</td>
+<td></td>
+<td>9</td>
+<td>org.example.testRunner.Runners@255b53dc</td></tr>
+<tr>
+<td title='org.example.testRunner.Runners.runScenario()'><b>runScenario</b><br>Test class: org.example.testRunner.Runners<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user opens twitter link", "F07_followUs | users could open followUs links"</td>
+<td></td>
+<td>21</td>
+<td>org.example.testRunner.Runners@255b53dc</td></tr>
 </table><p>
 </body>
 </html>

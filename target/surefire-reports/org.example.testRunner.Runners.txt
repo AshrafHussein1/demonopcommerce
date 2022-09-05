@@ -1,4 +1,13 @@
 -------------------------------------------------------------------------------
 Test set: org.example.testRunner.Runners
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 25.007 s - in org.example.testRunner.Runners
+Tests run: 19, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 343.208 s <<< FAILURE! - in org.example.testRunner.Runners
+org.example.testRunner.Runners.runScenario  Time elapsed: 38.027 s  <<< FAILURE!
+java.lang.AssertionError: expected [https://demo.nopcommerce.com/nokia-lumia-1020] but found [https://demo.nopcommerce.com/]
+
+org.example.testRunner.Runners.runScenario  Time elapsed: 40.904 s  <<< FAILURE!
+java.lang.AssertionError: expected [https://demo.nopcommerce.com/iphone-6] but found [https://demo.nopcommerce.com/]
+
+org.example.testRunner.Runners.runScenario  Time elapsed: 12.146 s  <<< FAILURE!
+java.lang.AssertionError: No new tab opened
+

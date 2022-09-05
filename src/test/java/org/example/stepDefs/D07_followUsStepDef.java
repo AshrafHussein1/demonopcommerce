@@ -43,7 +43,7 @@ public class D07_followUsStepDef {
         {
             ArrayList<String> tabs = new ArrayList<String> (driver.getWindowHandles());
             driver.switchTo().window(tabs.get(1));
-            Assert.assertEquals(driver.getCurrentUrl(),link);
+            Assert.assertTrue(driver.getCurrentUrl().startsWith(link));
         }
     }
 }
